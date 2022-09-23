@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300&display=swap');
+.btn{
+    border-radius: 34px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    background: linear-gradient(180deg, #F6BB0A 26.71%, #FBE551 99.36%);
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 20px 24px 3px rgba(232, 248, 11, 0.42);
+    width: 9rem;
+}
+.btn:hover{
+    background: white;
+    color: #F6BB0A;
+    cursor: pointer;
+    border: 1px solid #F6BB0A;
+}
+
+.prof{
+    display: flex;
+    height: 77vh;
+    margin-top: 15rem;
+}
+.leftside{
+     display: flex;
+     position: relative;
+     flex:1;
+     flex-direction: column;
+     margin-left: 80px;
+     gap: 2rem;
+}
+.rightside{
+     flex:1;
+     position: relative;
+     margin-right: 70px;
+}
+.rightside>*{
+  position: absolute;
+  z-index: 1;
+}
+.rightside>:nth-child(1){
+    transform: scale(1);
+    left: 10%;
+    top: -10%;
+}
+.rightside>:nth-child(2){
+    transform: scale(1);
+    left: 20%;
+    top: 10%;
+    border-radius: 168px;
+}
+.rightside>:nth-child(3){
+    transform: scale(0.25);
+    top: -42%;
+    left: -30%;
+    padding: 0%;
+    
+}
+
+.rightside>:nth-child(5){
+    transform: scale(4);
+    top: 21%;
+    left: 80%;
+    padding: 0%;
+}
+.rightside>:nth-child(4){
+    transform: scale(4);
+    top: 23%;
+    left: 23%;
+    padding: 0%;
+}
+.myname{
+    display: flex;
+    flex-direction: column;
+}
+.childf{
+    color: black;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+.childs{
+    color: #F6BB0A;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+.childt{
+    font-weight: 100;
+    font-size: 24px;
+    color: rgb(48, 47, 47);
+    font-family: 'Poppins', sans-serif;
+    
+}
+ul{
+    margin-top: 4rem;
+    margin-left: 100px;
+    display: flex;
+    gap: 5rem;
+}
+
+ul li{
+    list-style: none;
+}
+li .bi{
+  font-size: 30px;
+  transition: 0.50s;
+}
+
+.icon-l,.icon-g,.icon-i,.icon-f,.icon-t{
+    color: #F6BB0A;
+    
+}
+.icon-f,.icon-t{
+    text-shadow: -5px 4px 5px rgb(0, 0,0, .1);
+}
+.icon-f:hover{
+    cursor: pointer;
+    color: #2e4a86;
+    
+}
+.icon-t:hover{
+    cursor: pointer;
+    color: #1DA1F2;
+}
+
+li a{
+    position: relative;
+    display: block;
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    text-align: center; 
+    transform: perspective(100px) rotate(2deg) skew(25deg) translate(0,0);   
+    transition: 0.5s;
+    box-shadow: -20px 20px 10px rgb(0, 0,0, 0.5);
+}
+/* befor and after effect on icon*/
+li a::before{
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    height: 100%;
+    width: 20.6px;
+    background: #b1b1b1;
+    transition: 0.5s;
+    transform: rotate(0deg) skewY(-45deg);
+}
+li a::after{
+    content: "";
+    position: absolute;
+    top: 49.6px;
+    left: -11px;
+    height: 20px;
+    width: 100%;
+    background: #b1b1b1;
+    transition: 0.5s;
+    transform: rotate(0deg) skewX(-45deg);
+}
+ul li a:hover{
+    transform: perspective(1000px) rotate(5deg) skew(25deg) translate(20px,-20px);
+    box-shadow: -50px 50px 50px rgb(0, 0, 0, 0.5);   
+}
+li:hover .bi{
+    color: #fff;
+}
+ul li:hover:nth-child(2) a{
+    background: #3b5999;
+}
+ul li:hover:nth-child(2) a::before{
+    background: #2e4a86;
+}
+ul li:hover:nth-child(2) a::after{
+    background: #4a69ad;
+}
+
+ul li:hover:nth-child(1) a{
+    background: linear-gradient(#400080,transparent), linear-gradient(20deg, #d047d1, #ff0000, #ffff00);
+}
+ul li:hover:nth-child(1) a::before{
+    background: linear-gradient(#400080,transparent), linear-gradient(20deg, #d047d1, #ff0000, #ffff00);
+}
+ul li:hover:nth-child(1) a::after{
+    background: linear-gradient(#400080,transparent), linear-gradient(20deg, #d047d1, #ff0000, #ffff00);
+}
+
+ul li:hover:nth-child(3) a{
+    background: #000;
+}
+ul li:hover:nth-child(3) a::before{
+    background: #000;
+}
+ul li:hover:nth-child(3) a::after{
+    background: #000;
+}
+
+.blur{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background-color: #deaefc;
+    filter: blur(90px);
+    z-index: -9;
+    top: -18%;
+    left: 70%;
+}
+.blur-sec{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background-color: #a1eaf8;
+    filter: blur(90px);
+    z-index: -9;
+    top: 45%;
+    left: -18%;
+}

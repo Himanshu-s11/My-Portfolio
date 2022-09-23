@@ -11,5 +11,8 @@ export class ProfileComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+   //blueimg:string="assets/img/blu.jpg";
+   orangeimg:string="assets/img/orange.jpeg";
+   myimg:string="assets/img/myimg.png";
+   emo:string="assets/img/emoji.png";
 }
