@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300&display=swap');
+
+.education{
+    padding: 7rem 0rem 0 0rem;
+    font-family: 'Poppins', sans-serif;
+}
+.edu{
+    background: #F6BB0A;
+    margin-left: 11px;
+    border-radius: 7px;
+    width: 20%;
+}
+
+
+
+.card{
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: #F6BB0A;
+    border-radius: 11px;
+    box-shadow: 4px 3px 24px 15px rgb(0, 0 ,0 , 2%);
+    --bs-card-border-width:4px;
+}
+.row{
+    margin-left: -11px;
+
+}
+
+@media (max-width: 480px){
+    .edu{
+        width: 95%;
+    }
+}
+@media (max-width: 767px){
+    .edu{
+        width: 95%;
+    }
+}
+
+@media (max-width: 375px){
+    .edu{
+        width: 93%;
+    }
+}
