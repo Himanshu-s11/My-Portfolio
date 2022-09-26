@@ -60,14 +60,14 @@
 
 .rightside>:nth-child(5){
     transform: scale(4);
-    top: 21%;
+    top: 18%;
     left: 80%;
     padding: 0%;
 }
 .rightside>:nth-child(4){
     transform: scale(4);
-    top: 23%;
-    left: 23%;
+    top: 25%;
+    left: 22%;
     padding: 0%;
 }
 .myname{
