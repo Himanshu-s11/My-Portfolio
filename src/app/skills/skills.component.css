@@ -3,7 +3,7 @@
     height: 35rem;
     padding: 40px;
     border-radius: 15px;
-    box-shadow: 2px 14px 45px rgb(99, 98, 98);
+    box-shadow: 2px 14px 45px rgb(0, 0, 0, 10%);
     backdrop-filter: blur(60px);
 }
 
@@ -168,7 +168,7 @@
     height: 14rem;
     border-radius: 50%;
     background-color: #deaefc;
-    filter: blur(90px);
+    filter: blur(120px);
     z-index: -9;
     top: 10%;
     left: 75%;
@@ -181,7 +181,7 @@
     height: 19rem;
     border-radius: 50%;
     background-color: #a1eaf8;
-    filter: blur(90px);
+    filter: blur(120px);
     z-index: -9;
     top: 60%;
     left: -5px;
