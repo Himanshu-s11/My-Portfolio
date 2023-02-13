@@ -55,6 +55,7 @@
     top: -42%;
     left: -30%;
     padding: 0%;
+    transition: 0.8s ease-in-out;
     
 }
 
@@ -217,4 +218,49 @@ ul li:hover:nth-child(3) a::after{
     z-index: -9;
     top: 45%;
     left: -18%;
+}
+
+@media(max-width: 480px){
+   .prof{
+    padding:0.5rem 1rem;
+    flex-direction: column;
+    margin-top: -1rem;
+    height: 64rem;
+    gap: 13rem;
+   }
+   .rightside{
+    transform: scale(0.5);
+    left: -5rem;
+    margin-top: -584px;
+    top:0
+   }
+   .blur,.blur-sec{
+    display: none;
+   }
+   .leftside{
+    transform: scale(0.7);
+    left: -6rem;
+    
+   }
+   .rightside>:nth-child(2){
+    transform: scale(1.1);
+    left: 35%;
+    top: 5%;
+    border-radius: 168px;
+}
+.rightside>:nth-child(4){
+    top: 8%;
+    left: 54%;
+}
+.rightside>:nth-child(5){
+    top: 16%;
+    left: 196%;
+}
+ul{
+    margin-top: 1rem;
+    margin-left: 50px;
+    display: flex;
+    gap: 4rem;
+}
+
 }
