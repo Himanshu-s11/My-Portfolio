@@ -50,3 +50,27 @@ a{
     cursor: pointer;
     border: 1px solid #F6BB0A;
 }
+@media(max-width: 480px){
+    .nav{
+        display: none;
+    }
+
+    .navbar-nav{
+        gap: 0rem;
+        font-family: 'Poppins', sans-serif;
+        margin-left: 0rem;
+        text-align: right;
+        border-top-left-radius: 190px;
+        background-color: #F6BB0A;
+    }
+    .nav-link:hover {
+        color: #000 ;
+    }
+    .navbar-toggler,
+    .navbar-toggler-icon{
+        color: #F6BB0A;
+    }
+    .navbar-nav li{
+        margin-right: 20px;
+    }
+} 
