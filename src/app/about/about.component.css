@@ -16,7 +16,7 @@
 .btn{
     border-radius: 34px;
     border: none;
-    margin: -20px 0px 4px 15px;
+    margin: 13px 0px 4px 15px;
     color: white;
     font-size: 15px;
     padding: 10px 20px 10px 20px;
@@ -24,6 +24,7 @@
     font-family: 'Poppins', sans-serif;
     /* box-shadow: 0px 20px 24px 3px rgba(232, 248, 11, 0.42); */
     width: 9rem;
+    margin-left: 24rem;
 }
 .btn:hover{
     background: white;
@@ -55,4 +56,15 @@
     z-index: -9;
     top: 60%;
     left: -5px;
+}
+@media(max-width: 480px){
+  .blur-lef,.blur-rig{
+    display: none;
+  }
+  .btn{
+    margin-left: 20rem;
+  }
+  .section{
+    padding: 7rem 0rem 0 0rem;
+}
 }
